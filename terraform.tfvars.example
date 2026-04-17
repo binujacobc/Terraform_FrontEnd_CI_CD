@@ -1,0 +1,14 @@
+aws_region   = "eu-west-2"
+project_name = "my-frontend"
+environment  = "production"
+
+# Hosting infra references (from terraform/ outputs)
+s3_bucket_name             = "my-frontend-production"
+s3_bucket_arn              = "arn:aws:s3:::my-frontend-production"
+cloudfront_distribution_id  = "EXXXXXXXXXX"
+cloudfront_distribution_arn = "arn:aws:cloudfront::123456789012:distribution/EXXXXXXXXXX"
+
+# GitHub source
+github_owner  = "your-github-username"
+github_repo   = "your-repo-name"
+github_branch = "main"
